@@ -28,7 +28,7 @@ function Header() {
 
                 <form className='flex flex-grow border border-gray-200 rounded-full shadow-lg max-w-3xl ml-10 mr-5 px-6 py-3'>
                     {/* ref={searchInputRef} >>> getting the input search */}
-                    <input type={'text'} ref={searchInputRef} className='flex-grow w-full focus:outline-none' />
+                    <input placeholder={router.query.term} type={'text'} ref={searchInputRef} className='flex-grow w-full focus:outline-none' />
 
                     <XIcon className='h-7 sm:mr-3 text-gray-500 cursor-pointer hover:scale-125 active:scale-90 hover:bg-gray-100 
                 rounded-full transform transition duration-100 ' onClick={() => { searchInputRef.current.value = "" }} />
