@@ -47,7 +47,7 @@ export default function Home() {
       </Head>
 
       {/* header */}
-      <header className='flex w-full justify-between p-5 text-sm text-gray-700'>
+      <header className='flex w-full justify-between p-5 text-sm text-gray-700 mt-16'>
         {/* left */}
         <div className='flex space-x-4 items-center'>
           <p className='link'>About</p>
@@ -81,7 +81,7 @@ export default function Home() {
           <MicrophoneIcon className='h-5 ' />
         </div>
 
-        <div className='flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4'>
+        <div className='flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4 my-5'>
           <button onClick={search} className='btn'>Google Search</button>
           <button onClick={search} className='btn'>Im Feeling Lucky</button>
         </div>
