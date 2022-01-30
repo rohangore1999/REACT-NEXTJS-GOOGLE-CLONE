@@ -39,7 +39,7 @@ export default function Home() {
         {/* for post picture */}
         <meta property="og:title" content="" />
         <meta property="og:type" content="" />
-        <meta property="og:image" content="/google-logo.png" />
+        <meta property="og:image" content="/google_logo.png" />
         <meta name="twitter:card" content="summary_large_image" />
 
         <meta property="og:description" content="" />

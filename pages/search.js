@@ -16,6 +16,15 @@ function Search({ results }) {
             <Head>
                 <title>{router.query.term} - Google Search</title>
                 <link rel="icon" href="/favicon.ico" />
+
+                {/* for post picture */}
+                <meta property="og:title" content="" />
+                <meta property="og:type" content="" />
+                <meta property="og:image" content="/google_logo.png" />
+                <meta name="twitter:card" content="summary_large_image" />
+
+                <meta property="og:description" content="" />
+                <meta name="twitter:image:alt" content="" />
             </Head>
 
             {/* header */}
